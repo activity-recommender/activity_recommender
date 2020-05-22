@@ -76,7 +76,7 @@ def apicall(ingr):
     querystring = {"ingr":ingr}
     headers = {
     'x-rapidapi-host': "edamam-food-and-grocery-database.p.rapidapi.com",
-    'x-rapidapi-key': "1d8864a5e2msh9a5a9c975608277p116899jsn9ab4039b88c3"
+    'x-rapidapi-key': "f8c1497b86mshfc624fc90b89df6p1b923bjsn70c4b021f1a0"
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
     data = json.loads(response.text)
